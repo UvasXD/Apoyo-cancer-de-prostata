@@ -1,0 +1,35 @@
+#caja32{
+    padding: 20px;
+    width:100px ;
+    height: 400px;
+    font-size: 15px;
+}
+    #caja33{
+        text-align: center;
+        font-size: 40px;
+    }
+    #caja34{
+        padding-left: 200px;
+        padding-top: 5%;
+    }
+    .caja35{
+        padding-left: 200px;
+        float: left;
+        width:184px;
+        height:140px;
+        background-color: rgb(255, 255, 255);
+    }
+    .caja36{
+        padding-left: 0px;
+        float: left;
+        width:183px;
+        height:140px;
+        background-color: rgb(255, 255, 255);
+    }
+    .caja37{
+        padding-left: 0px;
+        float: left;
+        width:183px;
+        height:140px;
+        background-color: rgb(255, 255, 255);
+    }

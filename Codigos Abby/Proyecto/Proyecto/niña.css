@@ -1,0 +1,41 @@
+
+#caja22{
+    padding: 20px;
+    width:100px ;
+    height: 400px;
+    font-size: 15px;
+}
+    #caja23{
+        text-align: center;
+        font-size: 40px;
+    }
+    .caja24{
+      padding-left: 200px;
+      padding-top: 5%;
+    }
+    .caja24 img{
+        margin: auto;
+        width: 190px; 
+        height: 250px;
+    }
+    .caja25{
+        padding-left: 200px;
+        float: left;
+        width:183px;
+        height:140px;
+        background-color: rgb(255, 255, 255);
+    }
+    .caja26{
+        padding-left: 10px;
+        float: left;
+        width:183px;
+        height:140px;
+        background-color: rgb(255, 255, 255);
+    }
+    .caja27{
+        padding-left: 10px;
+        float: left;
+        width:183px;
+        height:140px;
+        background-color: rgb(255, 255, 255);
+    }

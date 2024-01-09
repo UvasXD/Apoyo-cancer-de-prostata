@@ -1,0 +1,103 @@
+/* Estilos para la barra superior */
+.top-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .left-section {
+    display: flex;
+    align-items: center;
+    font-size: x-small;
+  }
+  
+  .left-section img {
+    width: 30px;
+    margin-right: 10px;
+  }
+  
+  .right-section {
+    display: flex;
+    align-items: center;
+  }
+  
+  .links-container {
+    display: flex;
+}
+  
+  .links-container a {
+    color: white;
+    text-decoration: none;
+    margin-left: 10px;
+    padding-right: 16px;
+  }
+  
+  .links-container a:first-child {
+    margin-left: 0;
+  }
+  
+  .links-container a:hover {
+    text-decoration: underline;
+  }
+  
+
+.titulo {
+    margin-top: 80px; /* Espacio para evitar que el contenido se superponga con la barra superior */
+    padding: 20px; /* Espaciado interno para el contenido */
+    text-align: center;
+}
+
+.barra-horizontal {
+    background-color: #3498db; /* Color de fondo de la barra */
+    width: 100%; /* Ancho completo de la pantalla */
+    height: 48px; /* Altura de la barra */
+    margin-top: 20px; /* Espacio entre el título y la barra */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Estilos para el subtítulo de la barra */
+.subtitulo {
+    color: white; /* Color del texto */
+    padding: 5px 10px; /* Espaciado interno para el texto */
+    margin: 0; /* Eliminar márgenes por defecto */
+    font-size: xx-large;
+}
+
+.contenido {
+    padding: 128px; /* Espaciado interno para el contenido */
+    font-size: x-large;
+}
+
+.seccion-imagen {
+    display: flex;
+    align-items: center;
+    margin-top: 30px; /* Espacio entre la barra horizontal y esta sección */
+    font-size: x-large;
+}
+
+/* Estilos para la imagen */
+.seccion-imagen img {
+    margin-right: 20px; /* Espacio entre la imagen y el párrafo de texto */
+    max-width: 40vw; /* Escala la imagen al 50% del ancho de la ventana */
+    height: auto; /* Mantiene la proporción de aspecto */
+    display: block; /* Elimina espacios no deseados */
+}
+
+.subtitulo_2 {
+    padding: 185;
+    color: #3498db;
+    text-align: center;
+    font-size: x-large;
+}
+
+
+

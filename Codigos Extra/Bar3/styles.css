@@ -1,0 +1,7 @@
+/* ... Estilos anteriores ... */
+
+/* Estilos para "obscurecer" la sección activa */
+.seccion-activa {
+    opacity: 0.5; /* Cambia la opacidad como desees para el efecto deseado */
+  }
+  
