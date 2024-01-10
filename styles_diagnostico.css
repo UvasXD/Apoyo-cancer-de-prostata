@@ -52,6 +52,7 @@
     margin-top: 80px; /* Espacio para evitar que el contenido se superponga con la barra superior */
     padding: 20px; /* Espaciado interno para el contenido */
     text-align: center;
+    font-size: xx-large;
 }
 
 .barra-horizontal {
@@ -72,24 +73,40 @@
     font-size: xx-large;
 }
 
-.contenido {
-    padding: 128px; /* Espaciado interno para el contenido */
+.contenido1 {
+    padding: 256px; /* Espaciado interno para el contenido */
     font-size: x-large;
+    align-content: center;
+    margin-top: -256px;
+}
+
+.contenido2-imagenes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenido2-imagenes div {
+  margin: 10px; /* Espacio entre las imágenes */
+}
+
+.contenido2-imagenes img {
+  max-width: 100%; /* Asegura que las imágenes no excedan el ancho del contenedor */
+  height: auto; /* Para mantener la proporción de aspecto */
 }
 
 .contenido2 {
-    display: flex;
-    align-items: center;
-    margin-top: 30px; /* Espacio entre la barra horizontal y esta sección */
-    font-size: x-large;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: large;
 }
 
-.contenido2 img{
-  max-width: 22vw;
-  height: auto;
-  display:block;
+.pruebas_deteccion {
+  max-width: 600px; /* Ajusta el ancho máximo según tus necesidades */
+  text-align: center; /* Centra el texto */
+  margin-bottom: 20px; /* Espacio entre cada sección */
 }
-
 /* Estilos para la imagen */
 .seccion-imagen img {
     margin-right: 20px; /* Espacio entre la imagen y el párrafo de texto */
@@ -105,5 +122,51 @@
     font-size: x-large;
 }
 
+.contenido3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 256px;
+  font-size: large;
+}
 
+.cuerpo {
+  flex: 1;
+  max-width: 70%; /* Ajusta el ancho del texto */
+  text-align: left;
+}
 
+.imagenes {
+  flex: 1;
+  max-width: 25%; /* Ajusta el ancho máximo de las imágenes */
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Espacio entre las imágenes */
+}
+
+.imagenes img {
+  width: 100%; /* Ajusta el ancho de las imágenes al contenedor */
+  height: auto;
+}
+
+.boton-diagnostico {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 2px solid #000;
+  border-radius: 5px;
+  background-color: #ffcc00;
+  color: #000;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.boton-diagnostico:hover {
+  background-color: #ffc107;
+  color: #fff;
+}
+
+.botones{
+  display: flex;
+  text-align: center;
+  
+}

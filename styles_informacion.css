@@ -80,6 +80,7 @@
 
 /* Estilos para la imagen */
 .info1 img {
+    margin-top: -86px;
     margin-right: 20px; /* Espacio entre la imagen y el párrafo de texto */
     max-width: 40vw; /* Escala la imagen al 50% del ancho de la ventana */
     height: auto; /* Mantiene la proporción de aspecto */
@@ -90,12 +91,15 @@
   align-items: center;
   margin-top: 30px; /* Espacio entre la barra horizontal y esta sección */
   font-size: x-large;
+  padding: 256px;
 }
 
 .info2 {
-
+  margin-top: -360px;
+  padding: 256px;
   display: flex;
   align-items: center;
+  font-size: large;
 }
 
 .info3 {
@@ -103,20 +107,23 @@
   align-items: center;
   margin-top: 30px; /* Espacio entre la barra horizontal y esta sección */
   font-size: x-large;
+  padding: 256px;
+  margin-top: -256px;
 }
 
 .info4 {
   display: flex;
   align-items: center;
-  margin-top: 30px; /* Espacio entre la barra horizontal y esta sección */
+  margin-top: -216px; /* Espacio entre la barra horizontal y esta sección */
   font-size: x-large;
+  padding: 256px;
 }
 
 .barra-horizontal {
   background-color: #3498db; /* Color de fondo de la barra */
   width: 100%; /* Ancho completo de la pantalla */
   height: 48px; /* Altura de la barra */
-  margin-top: 20px; /* Espacio entre el título y la barra */
+  margin-top: -189px; /* Espacio entre el título y la barra */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -127,6 +134,17 @@
     color: #3498db;
     text-align: center;
     font-size: x-large;
+}
+
+.info5 {
+  margin-top: -450px;
+  padding: 256px;
+  font-size: x-large;
+}
+
+.info_6 img {
+  max-width: 64vw;
+  height: auto;
 }
 
 

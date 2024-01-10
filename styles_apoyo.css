@@ -48,56 +48,88 @@
   }
   
 
-.titulo {
-    margin-top: 80px; /* Espacio para evitar que el contenido se superponga con la barra superior */
-    padding: 20px; /* Espaciado interno para el contenido */
+  .contenido1 {
     text-align: center;
+    font-size: x-large;
+    padding: 256px;
+}
+
+.contenido2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: -350px; /* Espacio superior */
+  padding: 256px;
+  font-size: x-large;
+}
+
+/* Estilo de la imagen */
+.imagen {
+  margin-right: 20px; /* Espacio entre la imagen y el texto */
+}
+
+.imagen img {
+  width: 33vw; /* Ancho de la imagen */
+}
+
+/* Estilo del texto */
+.texto {
+  max-width: 500px; /* Ancho máximo del texto */
+}
+
+/* Estilo del botón rectangular */
+.boton-enlace {
+  text-decoration: none; /* Quita el subrayado del enlace */
+}
+
+.boton-rectangular {
+  background-color: blue; /* Color de fondo del botón */
+  color: white; /* Color del texto del botón */
+  padding: 10px 20px; /* Espaciado interno del botón */
+  border: none; /* Sin borde */
+  border-radius: 5px; /* Borde redondeado */
+  margin-top: 10px; /* Espacio superior al texto */
+}
+
+.contenido3 {
+  display:block;
+  padding: 256px;
+  text-justify: auto;
+  font-size: x-large;
+  margin-top: -280px;
+  text-align: center;
 }
 
 .barra-horizontal {
-    background-color: #3498db; /* Color de fondo de la barra */
-    width: 100%; /* Ancho completo de la pantalla */
-    height: 48px; /* Altura de la barra */
-    margin-top: 20px; /* Espacio entre el título y la barra */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: #3498db; /* Color de fondo azul */
+  color: white; /* Color del texto blanco */
+  text-align: center; /* Centra el texto */
+  padding: 20px; /* Añade espacio alrededor del contenido */
+  margin-top: -64;
+  font-size: x-large;
 }
 
-/* Estilos para el subtítulo de la barra */
-.subtitulo {
-    color: white; /* Color del texto */
-    padding: 5px 10px; /* Espaciado interno para el texto */
-    margin: 0; /* Eliminar márgenes por defecto */
-    font-size: xx-large;
+/* Estilos para el botón */
+.boton-enlace {
+  display: inline-block; /* Cambia el enlace a un bloque para ocupar todo el ancho */
+  text-align: center; /* Centra el botón dentro del enlace */
+  margin-top: 10px; /* Espacio arriba del botón */
 }
 
-.contenido {
-    padding: 128px; /* Espaciado interno para el contenido */
-    font-size: x-large;
+.boton-rectangular {
+  /* Estilos del botón rectangular */
+  padding: 10px 20px; /* Espaciado interno del botón */
+  background-color: white; /* Color de fondo blanco */
+  color: blue; /* Color del texto azul */
+  border: 2px solid blue; /* Borde sólido azul */
+  border-radius: 5px; /* Bordes redondeados */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  transition: background-color 0.3s, color 0.3s; /* Transición suave */
 }
 
-.seccion-imagen {
-    display: flex;
-    align-items: center;
-    margin-top: 30px; /* Espacio entre la barra horizontal y esta sección */
-    font-size: x-large;
+.boton-rectangular:hover {
+  /* Estilos al pasar el cursor sobre el botón */
+  background-color: blue; /* Cambia el fondo a azul */
+  color: white; /* Cambia el texto a blanco */
 }
-
-/* Estilos para la imagen */
-.seccion-imagen img {
-    margin-right: 20px; /* Espacio entre la imagen y el párrafo de texto */
-    max-width: 40vw; /* Escala la imagen al 50% del ancho de la ventana */
-    height: auto; /* Mantiene la proporción de aspecto */
-    display: block; /* Elimina espacios no deseados */
-}
-
-.subtitulo_2 {
-    padding: 185;
-    color: #3498db;
-    text-align: center;
-    font-size: x-large;
-}
-
-
-

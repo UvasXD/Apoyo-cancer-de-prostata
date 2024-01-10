@@ -46,9 +46,10 @@
   .links-container a:hover {
     text-decoration: underline;
   }
-  
+
 
 .titulo {
+    font-size: x-large;
     margin-top: 80px; /* Espacio para evitar que el contenido se superponga con la barra superior */
     padding: 20px; /* Espaciado interno para el contenido */
     text-align: center;
@@ -57,8 +58,8 @@
 .barra-horizontal {
     background-color: #3498db; /* Color de fondo de la barra */
     width: 100%; /* Ancho completo de la pantalla */
-    height: 48px; /* Altura de la barra */
-    margin-top: 20px; /* Espacio entre el título y la barra */
+    height: 102px; /* Altura de la barra */
+    margin-top: 44px; /* Espacio entre el título y la barra */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -73,7 +74,8 @@
 }
 
 .contenido {
-    padding: 128px; /* Espaciado interno para el contenido */
+    margin-top: -152px;
+    padding: 256px; /* Espaciado interno para el contenido */
     font-size: x-large;
 }
 
@@ -86,18 +88,20 @@
 
 /* Estilos para la imagen */
 .seccion-imagen img {
-    margin-right: 20px; /* Espacio entre la imagen y el párrafo de texto */
-    max-width: 40vw; /* Escala la imagen al 50% del ancho de la ventana */
+    margin-right: 50px; /* Espacio entre la imagen y el párrafo de texto */
+    max-width: 32vw; /* Escala la imagen al 50% del ancho de la ventana */
     height: auto; /* Mantiene la proporción de aspecto */
     display: block; /* Elimina espacios no deseados */
 }
 
 .subtitulo_2 {
+    margin-top: 96px;
     padding: 185;
     color: #3498db;
     text-align: center;
     font-size: x-large;
 }
+
 
 
 
